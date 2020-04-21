@@ -1,2 +1,25 @@
 Robert is lazy boy. He is too lazy to start new Job left it unfinished. He has to suffer  for his lazyness.
 
+Steps for Upload or push changes in GitHub Repository
+
+1. go to Worksapce by cd command 
+2.configure git bash with your github account with below Commands
+  a. git config --global user.name "bhartiRB"
+  b. git config --global user.email "***********"
+
+3.For access git Repository, we have to pase url in that with below command 
+   $ git clone https://github.com/bhartiRB/Testdemo.git
+
+4. Go inside folder with Cd command ,check list of file ls
+5.Make changes or add new File in local system
+6.add chnages
+  git add FileName(Changes Folder)
+7.Check status of git repo
+  git status
+8.for commit change with comment write below command
+   $ git commit -m "my FirstCommit" demoSampleFile.txt
+9.For push changes in Repo,Write below command
+   $ git push -u origin master
+10. Check status of Changes 
+ git status
+   
